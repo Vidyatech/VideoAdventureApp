@@ -1,0 +1,81 @@
+﻿
+
+.Player
+{
+    position: relative;
+    top: 0;
+    background-color: Black;
+    overflow: hidden;
+    left: 0;
+}
+
+.PlayerTitle
+{    
+    position: relative;    
+    z-index: 1000;
+    height: 45px;
+	width:100%;
+    background-color: black;
+}
+
+.VideoClass
+{
+   xvertical-align: middle;
+    xbackground-color: Red;
+    position: relative;
+    xtop: 0;
+    xleft: 0; xwidth:100%;
+    height:100%;
+}
+
+.PlayerButton
+{
+    position: relative;
+    background-color: Gray;
+    -webkit-transition-property: top, bottom ,height;
+    -webkit-transition-duration: 0.01s;
+}
+
+
+.videoContainer
+{
+      position:absolute;
+        left:0;
+        right:0; bottom:0; top:0;
+        xmargin-left:auto;
+        xmargin-right:auto;
+        xmargin-top:auto;
+        xmargin-bottom:auto; 
+		margin:0;
+		padding:0;
+        background-color:black; 
+    }
+
+
+input[type="range"]
+{ background-color:White;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    width: 100%;
+    height: 4px;
+}
+input::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(0.49, #dddddd), color-stop(0.51, #d1d1d1), color-stop(1, #a1a1a1) );
+}
+
+
+.fullscreen{
+	position:absolute;
+	top:0;
+	left:0;
+}

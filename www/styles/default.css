@@ -1,0 +1,404 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.mainDivCls
+{
+    xbackground-image: url();
+    xbackground-color: #4800ff;
+    xheight: 100%;
+    xwidth: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.mainTblCls
+{
+    border-radius: 15px;
+    vertical-align: central;
+    border: 3px solid green;
+}
+
+.mainMobileTblCls
+{
+    vertical-align: central;
+}
+
+
+.leftPartCls
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    xbackground-color: #f3ecec;
+    background-color: #fff;
+    background-image: url('../images/gr_bar.png');
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 250px;
+    xwidth: 20%;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.rightPartCls
+{
+    background-color: #fff;
+    padding: 5px;
+    xborder-top-right-radius: 12px;
+    xborder-bottom-right-radius: 12px;
+    border-radius: 12px;
+}
+.rightTblCls
+{
+    width: 100%;
+}
+
+.btn1Cls
+{
+    xbackground-color: #0094ff;
+    background-image: url("../images/icon_add.png");
+    height: 56px;
+    width: 76px;
+}
+.btn2Cls
+{
+    xbackground-color: #f00;
+    background-image: url('../images/icon_bin.png');
+    height: 56px;
+    width: 76px;
+}
+.btn3Cls
+{
+    xbackground-color: #4cff00;
+    background-image: url('../images/icon_block.png');
+    height: 56px;
+    width: 76px;
+}
+.btn4Cls
+{
+    xbackground-color: #b200ff;
+    background-image: url('../images/icon_edit.png');
+    height: 56px;
+    width: 76px;
+}
+.btn5Cls
+{
+    xbackground-color: #ff6a00;
+    background-image: url('../images/icon_information.png');
+    height: 56px;
+    width: 76px;
+}
+.btn6Cls
+{
+    xbackground-color: #bad1a2;
+    background-image: url('../images/icon_video.png');
+    height: 56px;
+    width: 76px;
+}
+.leftBtnClsNormal
+{
+    background-image: url('../images/icon_side_normal.png');
+    width: 24px;
+    height: 22px;
+}
+.leftBtnClsSelected
+{
+    background-image: url('../images/icon_side_selected.png');
+    width: 22px;
+    height: 20px;
+}
+.leftBtnTdSelected
+{
+    background-image: url('../images/sidebar_selected.png');
+    background-repeat: repeat-x;
+    height: 40px;
+    xcolor: #536b11;
+    color: #fff;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 20px;
+}
+.leftBtnTdNormal
+{
+    xbackground-color: #e1e1e1;
+    height: 40px;
+    color: #536b11;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 20px;
+    xbackground-image: url('../images/sidebar_normal.png');
+    xbackground-repeat: repeat-y;
+}
+.commonBtnCls
+{
+    float: right;
+}
+.themeNameCls
+{
+    float: left;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #7d7c78;
+    xfont-family: 'NoteWorthy-Bold';
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 26px;
+}
+.logoDiv
+{
+    background-image: url('../images/cartoonicon.png');
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 75px 0;
+}
+.mobile-logoDiv
+{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 75px 0;
+}
+.rightPartClsPlayer
+{
+    height: 70%;
+    padding: 0;
+}
+.mainDivClsPlayer
+{
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.mainTblClsPlayer
+{
+    border-radius: 15px;
+    vertical-align: central;
+    border: 3px solid green;
+    background-color: white;
+}
+#bkbtn
+{
+    float: left;
+    height: 42px;
+    width: 42px;
+    background-image: url(../images/home_normal.png);
+    background-repeat: no-repeat;
+}
+#mobile-bkbtn
+{
+    
+    height: 22px;
+    width: 30px;
+    background-image: url(../images/mobile-back.png);
+    background-repeat: no-repeat;
+	background-position:center 8px;
+    cursor: pointer;
+}
+.themeNameClsPlayer
+{
+    float: left;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #7d7c78;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 26px;
+}
+.clsVideoNormalPlayer
+{
+    position: relative;
+    overflow: hidden;
+    height: 1px;
+    background-image: url('../images/gr_bar.png');
+    background-repeat: repeat-y;
+    background-position: right;
+    font-size: 15px;
+    font-family: 'Comic Sans MS';
+    cursor: pointer;
+}
+.mobile-clsVideoNormalPlayer
+{
+    position: relative;
+    overflow: hidden;
+    height: 1px;
+    font-weight:bold;
+    background-repeat: repeat-y;
+    background-position: right;
+    font-size: 15px;
+    
+    font-family:Segoe UI;
+    cursor: pointer;
+}
+.clsVideoSelectedPlayer
+{
+    xbackground-image: url(../images/sidebar_selected.png);
+    background-repeat: repeat-x;
+    height: 1px;
+    color: #000000;
+    background-color: #D8DBC4;
+    font-size: 17px; 
+    font-family: 'Comic Sans MS';
+    cursor: pointer;
+}
+.mobile-clsVideoSelectedPlayer
+{
+    xbackground-image: url(../images/sidebar_selected.png);
+    background-repeat: repeat-x;
+    height: 1px;
+    color: #000000;
+   font-weight:bold;
+    font-size: 15px;
+    font-family: Segoe UI;
+    cursor: pointer;
+}
+.btnBgCls
+{
+    xbackground-image: url('../images/btn_normal.png');
+    xbackground-repeat: no-repeat;
+    padding: 4px;
+    float: right;
+    margin-left: 15px;
+    width: 110px;
+    height: 24px;
+    background-color: #2686c3;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.mobile-btnBgCls
+{    
+    padding: 4px;
+    float: right;
+    margin-left: 15px;    
+    height: 24px;
+    cursor: pointer;
+}
+.mobileThemeNameClsPlayer
+{    
+    color: White;
+    font-family: Verdana;
+    font-size: 17px;
+    float: left;
+    padding: 8px 0 0 12px;    
+    height: 24px;
+}
+.mobile-btnBKCls
+{
+    padding: 4px;
+    float: left;
+    height: 24px;	
+}
+.btntxtCls
+{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 3px;
+    float: left;
+    padding-left: 8px;
+}
+.mobile-btntxtCls
+{
+    font-family: Verdana;
+    font-size: 14px;
+    float: left
+}
+
+.durationTxt
+{
+    text-align: left;
+    float: left;
+    font-size:11px;
+    color: #7c7b7f;
+}
+
+.fdbText
+{
+    font-family: 'Verdana';
+    font-size: 13px;
+    color: #ACA08A;
+}
+
+.fdbHeadingText
+{
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+.fdbBtnCls
+{
+    font-family: 'Verdana';
+    font-size: 13px;
+    color: white;
+    border-radius: 8px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.grayscreen
+{
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.loadingGrayscreen
+{
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+.retryBtnCls
+{
+    font-family: 'Verdana';
+    font-size: 30px;
+    color: white;
+    border-radius: 8px;
+    background-color: Blue;
+    text-align: center;
+    xpadding-top: 20px;
+    cursor: pointer;
+}
+.mobile-footer
+{
+    background-image: url('../images/mobile-cartoonicon.png');
+    background-repeat: repeat-x;
+    height: 82px;
+	background-position:right bottom
+}
+
+.mobile-btnBKClsPlayer
+{
+    height: 24px;
+	width:100%;
+	padding-left:10px
+}
+.mobileThemeNameClsPlayerPlyayer
+{    
+    color: Black;
+    font-family: Verdana;
+    font-size: 20px;     
+    height: 24px;	
+}
+.mobile-btnBgClsPlayer
+{    
+    padding: 4px;    
+    padding-left: 15px;    
+    height: 24px;
+	width:40px;
+    cursor: pointer;
+}
+.commandTd
+{
+	display:none;
+}

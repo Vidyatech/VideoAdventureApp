@@ -1,0 +1,410 @@
+<root>
+  <lesson label="Newton's Laws of Motion" id="LS2" status="46" timetaken="7239" path="/PV1/LS2/" title="Newton's Laws of Motion (0 Pages)">
+    <section bgimage="images/btn_objective.png" label="Objectives" id="SC1" status="100" timetaken="1038" title="Objectives (1 Page)">
+      <subsection label="_hidden" id="SS1" tag="HIDDEN" status="100" timetaken="1038" details="GoHome" title="_hidden (1 Page)">
+        <page id="PG1" path="PG1.htm" childnum="1" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_Introduction.png" label="Introduction" id="SC2" status="80" timetaken="845" title="Introduction (1 Page)">
+      <subsection label="_hidden" id="SS2" tag="HIDDEN" status="100" timetaken="63" details="next" title="_hidden (1 Page)">
+        <page id="PG2" path="PG2.htm" childnum="2" />
+      </subsection>
+      <subsection label="Importance and Limitations" id="SS3" status="100" timetaken="34" details="next" title="Importance and Limitations (1 Page)">
+        <page id="PG3" path="PG3.htm" childnum="3" />
+      </subsection>
+      <container label="Foundation Knowledge" id="CN2" status="100" timetaken="72" title="Foundation Knowledge (1 Page)">
+        <subsection label="_hidden" id="SS102" tag="HIDDEN" status="100" timetaken="15" details="GoHome" title="_hidden (1 Page)">
+          <page id="PG130" path="PG130.htm" childnum="4" />
+        </subsection>
+        <container label="System" id="CN3" status="100" timetaken="42" title="System (1 Page)">
+          <subsection label="_hidden" id="SS4" tag="HIDDEN" status="100" timetaken="38" details="next" title="_hidden (1 Page)">
+            <page id="PG4" path="PG4.htm" childnum="5" />
+          </subsection>
+          <subsection label="Counting Systems" id="SS5" status="100" timetaken="4" details="next" title="Counting Systems (1 Page)">
+            <page id="PG5" path="PG5.htm" childnum="6" />
+          </subsection>
+        </container>
+        <subsection label="Reference Frame" id="SS6" status="100" timetaken="4" details="next" title="Reference Frame (1 Page)">
+          <page id="PG6" path="PG6.htm" childnum="7" />
+        </subsection>
+        <container label="Point and Distributed Mass" id="CN4" status="100" timetaken="11" title="Point and Distributed Mass (1 Page)">
+          <subsection label="_hidden" id="SS7" tag="HIDDEN" status="100" timetaken="3" details="next" title="_hidden (1 Page)">
+            <page id="PG7" path="PG7.htm" childnum="8" />
+          </subsection>
+          <subsection label="Distributed Mass: Types" id="SS8" status="100" timetaken="4" details="last" title="Distributed Mass: Types (1 Page)">
+            <page id="PG8" path="PG8.htm" childnum="9" />
+          </subsection>
+          <subsection label="Multiple Reference Frames" id="SS9" status="100" timetaken="4" details="last" title="Multiple Reference Frames (1 Page)">
+            <page id="PG9" path="PG9.htm" childnum="10" />
+          </subsection>
+        </container>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS10" status="20" timetaken="676" details="last" title="Check Your Understanding (5 Pages)">
+        <page id="PG10" path="PG10.htm" childnum="11" />
+        <page id="PG11" path="PG11.htm" childnum="12" />
+        <page id="PG12" path="PG12.htm" childnum="13" />
+        <page id="PG13" path="PG13.htm" childnum="14" />
+        <page id="PG125" path="PG125.htm" childnum="15" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_1stlaw.png" label="First Law of Motion" id="SC3" status="100" timetaken="1116" title="First Law of Motion (1 Page)">
+      <subsection label="_hidden" id="SS11" tag="HIDDEN" status="100" timetaken="12" details="next" title="_hidden (1 Page)">
+        <page id="PG14" path="PG14.htm" childnum="16" />
+      </subsection>
+      <container label="Force" id="CN5" status="100" timetaken="990" title="Force (1 Page)">
+        <subsection label="_hidden" id="SS12" tag="HIDDEN" status="100" timetaken="27" details="GoHome" title="_hidden (1 Page)">
+          <page id="PG15" path="PG15.htm" childnum="17" />
+        </subsection>
+        <container label="Classification of Force" id="CN6" status="100" timetaken="954" title="Classification of Force (1 Page)">
+          <subsection label="_hidden" id="SS13" tag="HIDDEN" status="100" timetaken="881" details="next" title="_hidden (1 Page)">
+            <page id="PG16" path="PG16.htm" childnum="18" />
+          </subsection>
+          <subsection label="Balanced and Unbalanced Force" id="SS14" status="100" timetaken="8" details="next" title="Balanced and Unbalanced Force (1 Page)">
+            <page id="PG17" path="PG17.htm" childnum="19" />
+          </subsection>
+          <subsection label="Internal and External Force" id="SS15" status="100" timetaken="3" details="next" title="Internal and External Force (1 Page)">
+            <page id="PG18" path="PG18.htm" childnum="20" />
+          </subsection>
+          <subsection label="Contact and Field Force" id="SS16" status="100" timetaken="4" details="next" title="Contact and Field Force (1 Page)">
+            <page id="PG19" path="PG19.htm" childnum="21" />
+          </subsection>
+          <subsection label="Concurrent Forces" id="SS17" status="100" timetaken="58" details="next" title="Concurrent Forces (1 Page)">
+            <page id="PG20" path="PG20.htm" childnum="22" />
+          </subsection>
+        </container>
+        <subsection label="Translational Static Equilibrium" id="SS18" status="100" timetaken="9" details="next" title="Translational Static Equilibrium (1 Page)">
+          <page id="PG21" path="PG21.htm" childnum="23" />
+        </subsection>
+      </container>
+      <container label="Inertia" id="CN7" status="100" timetaken="8" title="Inertia (1 Page)">
+        <subsection label="_hidden" id="SS19" tag="HIDDEN" status="100" timetaken="5" details="next" title="_hidden (1 Page)">
+          <page id="PG22" path="PG22.htm" childnum="24" />
+        </subsection>
+        <subsection label="Measure of Inertia" id="SS20" status="100" timetaken="3" details="next" title="Measure of Inertia (1 Page)">
+          <page id="PG23" path="PG23.htm" childnum="25" />
+        </subsection>
+      </container>
+      <container label="Reference Frame" id="CN8" status="100" timetaken="6" title="Reference Frame (1 Page)">
+        <subsection label="_hidden" id="SS21" tag="HIDDEN" status="100" timetaken="2" details="next" title="_hidden (1 Page)">
+          <page id="PG24" path="PG24.htm" childnum="26" />
+        </subsection>
+        <subsection label="Types of Reference Frames" id="SS22" status="100" timetaken="4" details="next" title="Types of Reference Frames (1 Page)">
+          <page id="PG25" path="PG25.htm" childnum="27" />
+        </subsection>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS23" status="100" timetaken="100" details="next" title="Check Your Understanding (5 Pages)">
+        <page id="PG26" path="PG26.htm" childnum="28" />
+        <page id="PG27" path="PG27.htm" childnum="29" />
+        <page id="PG28" path="PG28.htm" childnum="30" />
+        <page id="PG29" path="PG29.htm" childnum="31" />
+        <page id="PG30" path="PG30.htm" childnum="32" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_2ndlaw.png" label="Second Law of Motion" id="SC4" status="89" timetaken="4235" title="Second Law of Motion (1 Page)">
+      <subsection label="_hidden" id="SS24" tag="HIDDEN" status="100" timetaken="38" details="next" title="_hidden (1 Page)">
+        <page id="PG31" path="PG31.htm" childnum="33" />
+      </subsection>
+      <subsection label="Mathematical Representation of Force" id="SS25" status="100" timetaken="185" details="next" title="Mathematical Representation of Force (1 Page)">
+        <page id="PG32" path="PG32.htm" childnum="34" />
+      </subsection>
+      <subsection label="Derivation of Force" id="SS108" status="100" timetaken="3961" details="next" title="Derivation of Force (1 Page)">
+        <page id="PG135" path="PG135.htm" childnum="35" />
+      </subsection>
+      <container label="Types of Forces" id="CN9" status="100" timetaken="36" title="Types of Forces (1 Page)">
+        <subsection label="_hidden" id="SS26" tag="HIDDEN" status="100" timetaken="34" details="next" title="_hidden (1 Page)">
+          <page id="PG33" path="PG33.htm" childnum="36" />
+        </subsection>
+        <subsection label="Application of Forces" id="SS27" status="100" timetaken="2" details="next" title="Application of Forces (1 Page)">
+          <page id="PG34" path="PG34.htm" childnum="37" />
+        </subsection>
+      </container>
+      <subsection label="Units of Force" id="SS28" status="100" timetaken="1" details="next" title="Units of Force (1 Page)">
+        <page id="PG35" path="PG35.htm" childnum="38" />
+      </subsection>
+      <subsection label="Translational Dynamic Equilibrium" id="SS29" status="100" timetaken="1" details="next" title="Translational Dynamic Equilibrium (1 Page)">
+        <page id="PG36" path="PG36.htm" childnum="39" />
+      </subsection>
+      <subsection label="Check Your Understanding" type="TEST" id="SS31" status="20" timetaken="13" details="last" title="Check Your Understanding (5 Pages)">
+        <page id="PG38" path="PG38.htm" childnum="40" />
+        <page id="PG39" path="PG39.htm" childnum="41" />
+        <page id="PG40" path="PG40.htm" childnum="42" />
+        <page id="PG41" path="PG41.htm" childnum="43" />
+        <page id="PG42" path="PG42.htm" childnum="44" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_3rdlaw.png" label="Third Law of Motion" id="SC5" status="12" timetaken="2" title="Third Law of Motion (1 Page)">
+      <subsection label="_hidden" id="SS32" tag="HIDDEN" status="100" timetaken="2" details="last" title="_hidden (1 Page)">
+        <page id="PG43" path="PG43.htm" childnum="45" />
+      </subsection>
+      <subsection label="Nature of Reaction to Action" id="SS33" title="Nature of Reaction to Action (1 Page)">
+        <page id="PG44" path="PG44.htm" childnum="46" />
+      </subsection>
+      <container label="Contact Forces" id="CN11" title="Contact Forces (1 Page)">
+        <subsection label="_hidden" id="SS34" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG45" path="PG45.htm" childnum="47" />
+        </subsection>
+        <subsection label="Simple Contact Force" id="SS36" title="Simple Contact Force (1 Page)">
+          <page id="PG47" path="PG47.htm" childnum="48" />
+        </subsection>
+        <container label="Normal Reaction" id="CN13" title="Normal Reaction (1 Page)">
+          <subsection label="_hidden" id="SS37" tag="HIDDEN" title="_hidden (1 Page)">
+            <page id="PG48" path="PG48.htm" childnum="49" />
+          </subsection>
+          <subsection label="Shifting Normal Reaction" id="SS38" title="Shifting Normal Reaction (1 Page)">
+            <page id="PG49" path="PG49.htm" childnum="50" />
+          </subsection>
+          <subsection label="Breaking off the Plane" id="SS39" title="Breaking off the Plane (1 Page)">
+            <page id="PG50" path="PG50.htm" childnum="51" />
+          </subsection>
+        </container>
+        <container label="Tension" id="CN14" title="Tension (1 Page)">
+          <subsection label="_hidden" id="SS40" tag="HIDDEN" title="_hidden (1 Page)">
+            <page id="PG51" path="PG51.htm" childnum="52" />
+          </subsection>
+          <subsection label="Tension on Massless Rope" id="SS41" title="Tension on Massless Rope (1 Page)">
+            <page id="PG52" path="PG52.htm" childnum="53" />
+          </subsection>
+          <subsection label="Direction of Tension" id="SS42" title="Direction of Tension (1 Page)">
+            <page id="PG53" path="PG53.htm" childnum="54" />
+          </subsection>
+        </container>
+      </container>
+      <container label="Constraints on a System: Wedge Constraint" id="CN15" title="Constraints on a System: Wedge Constraint (1 Page)">
+        <subsection label="_hidden" id="SS44" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG55" path="PG55.htm" childnum="55" />
+        </subsection>
+      </container>
+      <container label="Constraints on a System: Rope Constraint" id="CN16" title="Constraints on a System: Rope Constraint (1 Page)">
+        <subsection label="_hidden" id="SS45" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG56" path="PG56.htm" childnum="56" />
+        </subsection>
+        <subsection label="Rope Constraint with One Rope" id="SS46" title="Rope Constraint with One Rope (1 Page)">
+          <page id="PG57" path="PG57.htm" childnum="57" />
+        </subsection>
+        <container label="Rope Constraint with Two Ropes" id="CN17" title="Rope Constraint with Two Ropes (1 Page)">
+          <subsection label="_hidden" id="SS105" tag="HIDDEN" title="_hidden (1 Page)">
+            <page id="PG135" path="PG132.htm" childnum="58" />
+          </subsection>
+          <subsection label="Relation in Acceleration of Two Ropes" id="SS47" title="Relation in Acceleration of Two Ropes (1 Page)">
+            <page id="PG58" path="PG58.htm" childnum="59" />
+          </subsection>
+          <subsection label="Relation in Masses and Acceleration of Pulleys" id="SS48" title="Relation in Masses and Acceleration of Pulleys (1 Page)">
+            <page id="PG59" path="PG59.htm" childnum="60" />
+          </subsection>
+        </container>
+      </container>
+      <container label="Free Body Diagrams" id="CN18" title="Free Body Diagrams (1 Page)">
+        <subsection label="_hidden" id="SS49" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG60" path="PG60.htm" childnum="61" />
+        </subsection>
+        <subsection label="Steps for Drawing an FBD" id="SS104" title="Steps for Drawing an FBD (1 Page)">
+          <page id="PG136" path="PG136.htm" childnum="62" />
+        </subsection>
+        <container label="Methods for Drawing FBD" id="CN26" title="Methods for Drawing FBD (1 Page)">
+          <subsection label="_hidden" id="SS50" tag="HIDDEN" title="_hidden (1 Page)">
+            <page id="PG231" path="PG61.htm" childnum="63" />
+          </subsection>
+          <subsection label="Drawing FBD with Separated Systems" id="SS51" title="Drawing FBD with Separated Systems (1 Page)">
+            <page id="PG62" path="PG62.htm" childnum="64" />
+          </subsection>
+          <subsection label="Drawing FBD Without Separated System" id="SS103" title="Drawing FBD Without Separated System (1 Page)">
+            <page id="PG131" path="PG131.htm" childnum="65" />
+          </subsection>
+        </container>
+        <subsection label="Examples for Drawing FBD" id="SS52" title="Examples for Drawing FBD (1 Page)">
+          <page id="PG63" path="PG63.htm" childnum="66" />
+        </subsection>
+        <subsection label="Normal Reaction: Horizontal Plane" id="SS53" title="Normal Reaction: Horizontal Plane (1 Page)">
+          <page id="PG64" path="PG64.htm" childnum="67" />
+        </subsection>
+        <subsection label="Normal Reaction: Inclined Plane" id="SS54" title="Normal Reaction: Inclined Plane (1 Page)">
+          <page id="PG65" path="PG65.htm" childnum="68" />
+        </subsection>
+        <subsection label="Normal Reaction: Point Contact" id="SS55" title="Normal Reaction: Point Contact (1 Page)">
+          <page id="PG66" path="PG66.htm" childnum="69" />
+        </subsection>
+        <subsection label="Normal Reaction: Hinge" id="SS56" title="Normal Reaction: Hinge (1 Page)">
+          <page id="PG67" path="PG67.htm" childnum="70" />
+        </subsection>
+        <subsection label="Tension: Massless Rope" id="SS57" title="Tension: Massless Rope (1 Page)">
+          <page id="PG68" path="PG68.htm" childnum="71" />
+        </subsection>
+        <subsection label="Tension: Pulley with Friction" id="SS58" title="Tension: Pulley with Friction (1 Page)">
+          <page id="PG69" path="PG69.htm" childnum="72" />
+        </subsection>
+        <subsection label="Tension: Curved Surface" id="SS59" title="Tension: Curved Surface (1 Page)">
+          <page id="PG70" path="PG70.htm" childnum="73" />
+        </subsection>
+      </container>
+      <container label="Contact Forces vs Normal Reaction" id="CN19" title="Contact Forces vs Normal Reaction (1 Page)">
+        <subsection label="_hidden" id="SS60" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG71" path="PG71.htm" childnum="74" />
+        </subsection>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS61" title="Check Your Understanding (5 Pages)">
+        <page id="PG72" path="PG72.htm" childnum="75" />
+        <page id="PG73" path="PG73.htm" childnum="76" />
+        <page id="PG74" path="PG74.htm" childnum="77" />
+        <page id="PG75" path="PG75.htm" childnum="78" />
+        <page id="PG76" path="PG76.htm" childnum="79" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_step-by-step.png" label="Step-by-Step Approach" id="SC8" title="Step-by-Step Approach (1 Page)">
+      <subsection label="_hidden" id="SS89" tag="HIDDEN" title="_hidden (1 Page)">
+        <page id="PG112" path="PG112.htm" childnum="80" />
+      </subsection>
+      <subsection label="System" id="SS90" title="System (1 Page)">
+        <page id="PG113" path="PG113.htm" childnum="81" />
+      </subsection>
+      <subsection label="Solving Problems" id="SS91" title="Solving Problems (1 Page)">
+        <page id="PG114" path="PG114.htm" childnum="82" />
+      </subsection>
+      <subsection label="Classification of Problems" id="SS93" title="Classification of Problems (1 Page)">
+        <page id="PG116" path="PG116.htm" childnum="83" />
+      </subsection>
+      <subsection label="Steps to Solve Problem" id="SS92" title="Steps to Solve Problem (1 Page)">
+        <page id="PG115" path="PG115.htm" childnum="84" />
+      </subsection>
+      <container label="Examples of Problems Involving Newton’s Laws " id="CN25" title="Examples of Problems Involving Newton’s Laws&amp;#160; (1 Page)">
+        <subsection label="_hidden" id="SS109" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG138" path="PG138.htm" childnum="85" />
+        </subsection>
+        <subsection label="Horizontal Plane Without Pulley" id="SS94" title="Horizontal Plane Without Pulley (1 Page)">
+          <page id="PG117" path="PG117.htm" childnum="86" />
+        </subsection>
+        <subsection label="Vertical Plane Without Pulley" id="SS95" title="Vertical Plane Without Pulley (1 Page)">
+          <page id="PG118" path="PG118.htm" childnum="87" />
+        </subsection>
+        <subsection label="Vertical Plane with Pulley" id="SS96" title="Vertical Plane with Pulley (1 Page)">
+          <page id="PG119" path="PG119.htm" childnum="88" />
+        </subsection>
+        <subsection label="Horizontal and Vertical Plane with Pulley" id="SS97" title="Horizontal and Vertical Plane with Pulley (1 Page)">
+          <page id="PG120" path="PG120.htm" childnum="89" />
+        </subsection>
+        <subsection label="Inclined Plane Without Pulley" id="SS98" title="Inclined Plane Without Pulley (1 Page)">
+          <page id="PG121" path="PG121.htm" childnum="90" />
+        </subsection>
+        <subsection label="Inclined Plane With Pulley" id="SS99" title="Inclined Plane With Pulley (1 Page)">
+          <page id="PG122" path="PG122.htm" childnum="91" />
+        </subsection>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS100" title="Check Your Understanding (5 Pages)">
+        <page id="PG128" path="PG128.htm" childnum="92" />
+        <page id="PG123" path="PG123.htm" childnum="93" />
+        <page id="PG127" path="PG127.htm" childnum="94" />
+        <page id="PG126" path="PG126.htm" childnum="95" />
+        <page id="PG124" path="PG124.htm" childnum="96" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_friction.png" label="Friction" id="SC6" title="Friction (1 Page)">
+      <subsection label="_hidden" id="SS62" tag="HIDDEN" title="_hidden (1 Page)">
+        <page id="PG77" path="PG77.htm" childnum="97" />
+      </subsection>
+      <subsection label="Friction: Microscopic Concept" id="SS63" title="Friction: Microscopic Concept (1 Page)">
+        <page id="PG78" path="PG78.htm" childnum="98" />
+      </subsection>
+      <subsection label="Properties of Frictional Force" id="SS64" title="Properties of Frictional Force (1 Page)">
+        <page id="PG79" path="PG79.htm" childnum="99" />
+      </subsection>
+      <subsection label="Coefficient of Friction" id="SS65" title="Coefficient of Friction (1 Page)">
+        <page id="PG80" path="PG80.htm" childnum="100" />
+      </subsection>
+      <container label="Types of Friction" id="CN20" title="Types of Friction (1 Page)">
+        <subsection label="_hidden" id="SS107" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG134" path="PG134.htm" childnum="101" />
+        </subsection>
+        <subsection label="Static Friction" id="SS66" title="Static Friction (1 Page)">
+          <page id="PG81" path="PG81.htm" childnum="102" />
+        </subsection>
+        <subsection label="Kinetic Friction" id="SS67" title="Kinetic Friction (1 Page)">
+          <page id="PG82" path="PG82.htm" childnum="103" />
+        </subsection>
+        <subsection label="Rolling Friction" id="SS68" title="Rolling Friction (1 Page)">
+          <page id="PG83" path="PG83.htm" childnum="104" />
+        </subsection>
+      </container>
+      <subsection label="Angle of Friction" id="SS69" title="Angle of Friction (1 Page)">
+        <page id="PG84" path="PG84.htm" childnum="105" />
+      </subsection>
+      <subsection label="Angle of Repose" id="SS70" title="Angle of Repose (1 Page)">
+        <page id="PG85" path="PG85.htm" childnum="106" />
+      </subsection>
+      <subsection label="Cold Weld" id="SS71" title="Cold Weld (1 Page)">
+        <page id="PG86" path="PG86.htm" childnum="107" />
+      </subsection>
+      <subsection label="Friction Aids Motion" id="SS72" title="Friction Aids Motion (1 Page)">
+        <page id="PG87" path="PG87.htm" childnum="108" />
+      </subsection>
+      <subsection label="Reaction to Friction" id="SS74" title="Reaction to Friction (1 Page)">
+        <page id="PG89" path="PG89.htm" childnum="109" />
+      </subsection>
+      <container label="Problems Involving Friction" id="CN22" title="Problems Involving Friction (1 Page)">
+        <subsection label="_hidden" id="SS75" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG90" path="PG90.htm" childnum="110" />
+        </subsection>
+        <subsection label="Bodies in Horizontal Motion" id="SS76" title="Bodies in Horizontal Motion (1 Page)">
+          <page id="PG91" path="PG91.htm" childnum="111" />
+        </subsection>
+        <subsection label="Stationary Bodies" id="SS77" title="Stationary Bodies (1 Page)">
+          <page id="PG92" path="PG92.htm" childnum="112" />
+        </subsection>
+        <subsection label="Horizontal Motion with Pulleys" id="SS78" title="Horizontal Motion with Pulleys (1 Page)">
+          <page id="PG93" path="PG93.htm" childnum="113" />
+        </subsection>
+        <subsection label="Motion on Inclined Plane" id="SS79" title="Motion on Inclined Plane (1 Page)">
+          <page id="PG94" path="PG94.htm" childnum="114" />
+        </subsection>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS80" title="Check Your Understanding (5 Pages)">
+        <page id="PG95" path="PG95.htm" childnum="115" />
+        <page id="PG96" path="PG96.htm" childnum="116" />
+        <page id="PG97" path="PG97.htm" childnum="117" />
+        <page id="PG99" path="PG99.htm" childnum="118" />
+        <page id="PG98" path="PG98.htm" childnum="119" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_referenceframe.png" label="Non-Inertial Reference Frame" id="SC7" status="20" timetaken="3" title="Non-Inertial Reference Frame (1 Page)">
+      <subsection label="_hidden" id="SS106" tag="HIDDEN" status="100" timetaken="3" details="GoHome" title="_hidden (1 Page)">
+        <page id="PG133" path="PG133.htm" childnum="120" />
+      </subsection>
+      <container label="Pseudo Force" id="CN23" title="Pseudo Force (1 Page)">
+        <subsection label="_hidden" id="SS81" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG100" path="PG100.htm" childnum="121" />
+        </subsection>
+        <subsection label="Effects of Pseudo Force" id="SS82" title="Effects of Pseudo Force (1 Page)">
+          <page id="PG101" path="PG101.htm" childnum="122" />
+        </subsection>
+      </container>
+      <subsection label="Types of Non-Inertial Reference Frames" id="SS83" title="Types of Non-Inertial Reference Frames (1 Page)">
+        <page id="PG102" path="PG102.htm" childnum="123" />
+      </subsection>
+      <container label="Selecting a Reference Frame" id="CN24" title="Selecting a Reference Frame (1 Page)">
+        <subsection label="_hidden" id="SS84" tag="HIDDEN" title="_hidden (1 Page)">
+          <page id="PG103" path="PG103.htm" childnum="124" />
+        </subsection>
+        <subsection label="Single Bodies" id="SS85" title="Single Bodies (1 Page)">
+          <page id="PG104" path="PG104.htm" childnum="125" />
+        </subsection>
+        <subsection label="Multiple Bodies" id="SS86" title="Multiple Bodies (1 Page)">
+          <page id="PG105" path="PG105.htm" childnum="126" />
+        </subsection>
+        <subsection label="Inclined Planes" id="SS87" title="Inclined Planes (1 Page)">
+          <page id="PG106" path="PG106.htm" childnum="127" />
+        </subsection>
+      </container>
+      <subsection label="Check Your Understanding" type="TEST" id="SS88" title="Check Your Understanding (5 Pages)">
+        <page id="PG107" path="PG107.htm" childnum="128" />
+        <page id="PG108" path="PG108.htm" childnum="129" />
+        <page id="PG109" path="PG109.htm" childnum="130" />
+        <page id="PG110" path="PG110.htm" childnum="131" />
+        <page id="PG111" path="PG111.htm" childnum="132" />
+      </subsection>
+    </section>
+    <section bgimage="images/btn_summery.png" label="Summary" id="SC9" title="Summary (1 Page)">
+      <subsection label="_hidden" id="SS101" tag="HIDDEN" title="_hidden (1 Page)">
+        <page id="PG129" path="PG129.htm" childnum="133" />
+      </subsection>
+    </section>
+  </lesson>
+
+</root>

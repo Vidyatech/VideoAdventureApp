@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>Video Menu </title>
+    <meta name="viewport" content="width=device-width">
+    <link href="styles/master.css" rel="stylesheet" type="text/css" />
+    <link href="styles/default.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/Video.js" type="text/javascript"></script>
+    <script src="scripts/storage.js" type="text/javascript"></script>
+    <script src="scripts/feedback.js" type="text/javascript"></script>
+    <script src="scripts/designer.js" type="text/javascript"></script>
+    <script src="scripts/iscroll.js" type="text/javascript"></script>
+    <script src="cordova-2.0.0.js" type="text/javascript"></script>
+    <script src="scripts/ga.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35712200-1']);
+    _gaq.push(['_trackPageview']);
+    </script>
+    
+    <script type="text/javascript">    	
+        $(document).ready(function () {
+        	detectDevice();
+        	if(isMobile)
+        	{
+        		setMobileSizeIndex();
+            	$("#loadingTextParent").show();                
+            	getXMLString();
+        	}
+            //isMobile = true;
+        	else
+        	{
+        		setSizeIndex();
+        		$("#loadingTextParent").show();
+            	getXMLString();
+        	}
+        });
+
+        $(document).bind('touchmove', function (e) {
+            e.preventDefault();
+        });
+
+        function redirect(pid) {
+            localStorage.setItem('val', pid);
+            _gaq.push(['_trackEvent', "PlayList", pid]);
+            if (isMobile == false)
+                window.location = './mobileplayer.html';
+            else
+                window.location = './mobileplayer.html';
+        }
+        function gotXMLString(xml) {
+            $("#loadingTextParent").hide();
+            if(isMobile)
+            	FillMobileLessons(xml);
+            else
+            	FillLessons(xml);
+        }
+        window.addEventListener("resize", function () {        	
+        	/*if(isFeedbackVisible)
+        	{
+        		cancelFeedback();
+        		isFeedbackVisible=false;
+        	}*/
+            setMobileSizeIndex();
+            setTitle();
+            $("#loadingTextParent").show(); 
+            if(myScroll !=null)
+            {
+            	myScroll.destroy();
+            	myScroll = null;
+            }
+            //getXMLString();
+            gotXMLString(xml);
+        }, false);
+    </script>
+</head>
+<body onload="setTitle()" style="overflow: hidden; background-repeat: repeat-x; background-color: #E4E4E4;margin: 0px;">
+<div id="grayscreen" class="grayscreen" style="background-color: black; display: none;
+    position: absolute; top: 0px; left: 0px; z-index: 2147483">
+    <table id="grayscreen_table" style="height: 50px; width: 150px" border="0" cellpadding="0"
+        cellspacing="0" bordercolor="green">
+        <tr>
+            <td nowrap="nowrap">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="mainDiv" class="mainDivCls2">
+    <div class="mobile-logoDiv">
+        <div style="height: auto; xpadding-top: 5px">
+            <table cellpadding="0" cellspacing="0" style="height: 100%; width: 100%;">
+                <tr>
+                    <td class="mobile-footer">
+                        <table cellpadding="0" cellspacing="0" style="border-bottom:1px solid #adcd2e;height: 100%; width: 100%;">
+	                    	<tr>
+	                    		<td style="width:auto;height:100%">		                    		
+		                            <div id="themeName" style="position: relative;left:8px;background-image:url('./images/160.png');background-repeat:no-repeat;height:100%;background-position: left center;"></div>
+	                    		</td>
+	                    		<td style="width:160px">
+	                    			<div style="height:100%;width:100%;background-image:url('./images/cartoonicon.png');background-repeat:no-repeat;background-position:left bottom"></div>
+	                    		</td>
+	                    	</tr>
+                    </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="commandTd" class="commandTd" style="background-color: #adcd2e;">
+                        <div style="float: right">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="mobile-btnBgClsPlayer" id="divLikeus" onclick="fnLike(event);">
+                                        <div style="padding-left: 8px">
+                                            <div style="float: left; padding-left: 4px; padding-top: 2px">
+                                                <img src="images/mobile-facebook.png" alt="" /></div>
+                                        </div>
+                                    </td>
+                                    <td style="width:2px;background-image:url('./images/bar.png');background-repeat:no-repeat;background-position:center center"></td>
+                                    <td class="mobile-btnBgClsPlayer" id="rateBtn" onclick="fnRating();">
+                                        <div style="padding-left: 8px">
+                                            <div style="float: left; padding-left: 4px; padding-top: 2px">
+                                                <img src="images/mobile-star.png" alt="" /></div>
+                                        </div>
+                                    </td>
+                                    <td style="width:2px;background-image:url('./images/bar.png');background-repeat:no-repeat;background-position:center center"></td>
+                                    <td class="mobile-btnBgClsPlayer" id="feedbackBtn" onclick="feedbackClick(event);">
+                                        <div style="padding-left: 8px; padding-right: 18px;">
+                                            <div style="float: left; padding-left: 2px">
+                                                <img src="images/mobile-feedback.png" alt="" /></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                	<td id="showCmdTd" style="width:100%;height:30px">
+                		<div id="showCmdDiv" onclick="showCommand();" style="height:100%;width:65px;margin:0 auto;background-color:#adcd2e;border-bottom-left-radius:30px;border-bottom-right-radius:30px;background-image:url('./images/showcmd.png');background-repeat:no-repeat;background-position:center center"></div>
+                	</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="contentBgMain" xclass="mainTblClsPlayer" style="border: 0">
+        <table cellspacing="0" cellpadding="0" id="mainTbl" class="mainTblCls2" border="0"
+            bordercolor="black">
+            <tr>
+                <td id="rightPart">
+                    <table cellpadding='0' cellspacing='0' id="rightTbl" style="padding-top: 10px" class="rightTblCls"
+                        border="0" bordercolor="red">
+                        <tr>
+                            <td style="position: relative; overflow: hidden; width: 100%;">
+                                <div id="loadingTextParent" xclass="noNetworkTopDiv" style="display: none">
+                                    <div class="noNetworkDiv" style="top: 60%; left: 35%; width: 50%; font-family: verdana;
+                                        font-size: 30px; color: black">
+                                        Loading...
+                                    </div>
+                                </div>
+                                <div class="lessonDiv" id="contentBg">
+                                    <table cellpadding='0' cellspacing='0' id="mtbl" border="0" bordercolor="green" style="width: 100%">
+                                        <tr id="mrow">
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="noNetworkDivParent" class="noNetworkTopDiv2" style="display: none">
+        <div class="noNetworkDiv">
+            <table cellspacing="0" border="0" cellpadding="0" style="height: 100%; width: 100%;">
+                <tr id="tr1">
+                    <td class="noNetworkTd1">
+                    </td>
+                </tr>
+                <tr id="tr2">
+                    <td style="text-align: center; font-family: Verdana">
+                        <b>Unable to connect the server.</b><br />
+                        Please ensure that you have a working Internet connection and try again.
+                    </td>
+                </tr>
+                <tr id="tr3">
+                    <td style="text-align: center; padding-top: 8px">
+                        <div id="btnRetry" class="retryBtnCls" style="width: 100px; height: 40px; margin: 0 auto">
+                            Retry
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <span id="ruler" style="visibility: hidden; white-space: nowrap;width: auto;"></span>
+</div>
+</body>
+</html>

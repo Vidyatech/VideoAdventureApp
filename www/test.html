@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+    <script src="video.js" type="text/javascript"></script>
+    <script src="scripts/designer.js" type="text/javascript"></script>
+    <script src="scripts/drawplaylist.js" type="text/javascript"></script>
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/Video.js" type="text/javascript"></script>
+    <script src="scripts/storage.js" type="text/javascript"></script>
+    <script src="scripts/feedback.js" type="text/javascript"></script>
+    <script src="scripts/iscroll.js" type="text/javascript"></script>
+    
+    <link href="styles/Video.css" rel="stylesheet" type="text/css" />
+    <link href="styles/master.css" rel="stylesheet" type="text/css" />
+    <link href="styles/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+    	var bestUrl;
+    	$(document).ready(function()
+    			{
+    				$("#loadres").bind("click", function(){
+    					//$("#ta1").val("");
+    					//$("#index1").val("");
+    					//$("#index2").val("");
+    					$("#ta2").val("");
+    					loaduri();
+    				});
+    			});
+    	/*function loaduri() {    	    
+    	    var urlValue = 'http://www.youtube.com/watch?v=dLwyUAWbI34&feature=player_embedded';
+    	    var oReq = new XMLHttpRequest();
+    	    oReq.open("GET", urlValue, true);
+    	    oReq.onload = function () {
+    	        var index1 = this.responseText.indexOf("try {");
+    	        var index2 = this.responseText.indexOf("catch (e)"); 
+    	        var news = this.responseText.substring(index1, index2 - 1);
+    	        $("#ta1").val(this.responseText);
+				$("#index1").val(index1);
+				$("#index2").val(index2);
+				$("#ta2").val(news);
+				var test = news.split('url');
+		        for (var ctr1 = 1; ctr1 < 4; ctr1++) {
+		            tmp = test[ctr1];
+		            tmp = tmp.replace(/\/\/\//g, "/");
+		            tmp = tmp.replace(/\\\//g, "/");
+		            tmp = tmp.replace(/\\u0026/g, "&");
+		            var tmp3 = tmp.replace(/\/\/\//g, "/");
+		            tmp3 = tmp3.replace(/\\\//g, "/");
+		            tmp3 = tmp3.replace(/\\u0026/g, "&");
+		            tmp3 = tmp3.replace(/}, {/g, "");
+		            tmp3 = tmp3.replace(/\"/g, '');
+		            tmp3 = tmp3.replace(/\\/g, '');
+		            var newarr = tmp3.split(',');
+		            for (var ct = 0; ct < newarr.length; ct++) {
+		                if (newarr[ct].indexOf(":") != -1) {
+		                    var detail = newarr[ct].split(":");
+		                    var Q = detail[0];
+		                    if (detail[1].indexOf('hd720') > -1) {
+		                        hurl = newarr[0].split('http')[1];
+		                    }
+		                    else if (detail[1].indexOf('medium') > -1) {
+		                        murl = newarr[0].split('http')[1];
+		                    }
+		                    else if (detail[1].indexOf('small') > -1) {
+		                        surl = newarr[0].split('http')[1];
+		                    }
+
+		                }
+		            }
+		        }
+		        if (typeof hurl != 'undefined' && hurl != "")
+		            bestUrl = 'http' + hurl;
+		        else if (typeof murl != 'undefined' && murl != "")
+		            bestUrl = 'http' + murl;
+		        else if (typeof surl != 'undefined' && surl != "")
+		            bestUrl = 'http' + surl;
+		        //alert(bestUrl);
+		        if(typeof bestUrl != 'undefined')
+		        	$("#index3").val(bestUrl);
+		        else
+		        	$("#index3").val("undefined");
+    	    };
+    	    oReq.send(null);
+    	}*/
+    	function loaduri() {
+    		myfunction();
+    	}
+    	function checkUrl(bestUrl)
+    	{
+    		alert("bestUrl : " + bestUrl);
+    		if(typeof bestUrl =='undefined' || bestUrl=="")
+    		{
+    			myfunction();
+    		}
+    		else
+    		{
+    			$("#ta2").val(bestUrl);
+    			playMobileVideoSrc(bestUrl);
+    	        return;
+    		}
+    	}
+    	function myfunction()
+    	{	
+    		var hurl, murl, surl;
+    		bestUrl="";
+    		var urlValue = 'http://www.youtube.com/watch?v=xSac3rpuiEY&feature=player_embedded';
+    		var oReq = new XMLHttpRequest();
+    	    oReq.open("GET", urlValue, true);
+    	    oReq.onload = function () {
+    	    	var index1 = this.responseText.indexOf("try {");
+    	        var index2 = this.responseText.indexOf("catch (e)"); 
+    	        var news = this.responseText.substring(index1, index2 - 1);
+    	        
+    	        //$("#ta1").val(this.responseText);
+				//$("#index1").val(index1);
+				//$("#index2").val(index2);
+    	        
+    	        var test = news.split('url');
+    	        for (var ctr1 = 1; ctr1 < 4; ctr1++) {
+    	            tmp = test[ctr1];
+    	            tmp = tmp.replace(/\/\/\//g, "/");
+    	            tmp = tmp.replace(/\\\//g, "/");
+    	            tmp = tmp.replace(/\\u0026/g, "&");
+    	            var tmp3 = tmp.replace(/\/\/\//g, "/");
+    	            tmp3 = tmp3.replace(/\\\//g, "/");
+    	            tmp3 = tmp3.replace(/\\u0026/g, "&");
+    	            tmp3 = tmp3.replace(/}, {/g, "");
+    	            tmp3 = tmp3.replace(/\"/g, '');
+    	            tmp3 = tmp3.replace(/\\/g, '');
+    	            var newarr = tmp3.split(',');
+    	            for (var ct = 0; ct < newarr.length; ct++) {
+    	                if (newarr[ct].indexOf(":") != -1) {
+    	                    var detail = newarr[ct].split(":");
+    	                    var Q = detail[0];
+    	                    if (detail[1].indexOf('hd720') > -1) {
+    	                        hurl = newarr[0].split('http')[1];
+    	                    }
+    	                    else if (detail[1].indexOf('medium') > -1) {
+    	                        murl = newarr[0].split('http')[1];
+    	                    }
+    	                    else if (detail[1].indexOf('small') > -1) {
+    	                        surl = newarr[0].split('http')[1];
+    	                    }
+
+    	                }
+    	            }
+    	        }
+    	         
+    	        if (typeof hurl != 'undefined' && hurl != "")
+    	            bestUrl = 'http' + hurl;
+    	        else if (typeof murl != 'undefined' && murl != "")
+    	            bestUrl = 'http' + murl;
+    	        else if (typeof surl != 'undefined' && surl != "")
+    	            bestUrl = 'http' + surl; 
+    	        checkUrl(bestUrl);
+    	        return;
+    	    };
+    	    oReq.send(null);
+    		}
+    </script>
+ </head>
+ <body style="overflow: hidden; background-repeat: repeat-x; background-color: #e4e4e4;margin: 0px"> 	
+ 	<input type="button" id="loadres" value="Load Response" />
+ 	<!--<textarea style="width:90%" id="ta1" rows="10"></textarea>
+ 	<input type="text" id="index1" /><input type="text" id="index2" /> -->	
+ 	<textarea style="width:95%" id="ta2" rows="20"></textarea>
+ </body>

@@ -1,0 +1,106 @@
+<root>
+  <playlist label="Rhymes" id="PL1"  imagname="images/Nursery Rhymes.jpg">
+    <video id="dLwyUAWbI34" title="The Wheels On The Bus Go Round And Round" duration="2:15">
+    </video>
+    <video id="3R7ng1b9KZE" title="Old MacDonald Had A Farm" duration="2:05">
+    </video>
+    <video id="eTgiBhs3htI" title="Baa Baa Black Sheep Have you any wool" duration="0:59">
+    </video>
+    <video id="yCjJyiqpAuU" title="Twinkle Twinkle Little Star" duration="2:34">
+    </video>
+    <video id="Qee0Gmr9XJU" title="Baby Genius, Itsy Bitsy Spider" duration="1:52">
+    </video>
+    <video id="PxVnYVScU-o" title="Baby Genius, Apples and Bananas" duration="2:13">
+    </video>
+    <video id="aRgDi09capE" title="hickory dickory dock" duration="0:42">
+    </video>
+    <video id="iymLcTd-vSk" title="Incy Wincy Spider" duration="0:25">
+    </video>
+    <video id="9u_du8hC5es" title="Humpty Dumpty" duration="0:33">
+    </video>
+    <video id="j_D-kBCmUew" title="Head Shoulders Knees and Toes" duration="3:21">
+    </video>
+    <video id="nMzT-gpyHp8" title="Baby Genius, No More Monkeys Jumping on the Bed!" duration="2:24">
+    </video>
+    <video id="jotrjCfQ6N8" title="I'm A Little Teapot Action Song" duration="1:10">
+    </video>
+  </playlist>
+  <playlist label="Insects" id="PL2" imagname="images/cartoons.jpg">
+    <video id="02ckr09B7EE" title="Army Ant Frenzy" duration="5:40">
+    </video>
+    <video id="yAuk3-5RU9Y" title="How to Harvest Honey Beekeeping" duration="9:22">
+    </video>
+    <video id="KOPr0LqMnW4" title="Goliath Tarantula - Cincinnati Zoo" duration="1:29">
+    </video>
+  </playlist>
+  <playlist label="Animals" id="PL3" imagname="images/Animals.jpg">
+    <video id="iWAtPMsk8_Y" title="The Kids ABC's At The Zoo" duration="3:14">
+    </video>
+    <video id="2dMtEVdXiac" title="American Alligator at the Blank Park Zoo" duration="2:01">
+    </video>
+    <video id="ncMW41SLAl0" title="Cute Baby Zebra Colt-Cincinnati Zoo" duration="1:27">
+    </video>
+    <video id="SkQiVgdPa-4" title="Sneaky Giraffe Startles Zoo Visitors" duration="1:19">
+    </video>
+    <video id="4L6pVnPNuH8" title="ZSL Whipsnade Zoo - Elephants play in bath" duration="1:53">
+    </video>
+    <video id="WEyeewfeEwM" title="Philadelphia Zoo Polar Bear Keeping Cool in Pool" duration="1:42">
+    </video>
+    <video id="rQHyiNXTvB0" title="Cute Baby Tigers-Cincinnati Zoo" duration="4:10">
+    </video>
+  </playlist>
+  <playlist label="Santa" id="PL4" imagname="images/Santa.jpg">
+    <video id="gBEHFFnV3RY" title="Baa Baa Black Sheep" duration="2:17">
+    </video>
+    <video id="WSdWCtn8oko" title="Clap Your Hands" duration="2:40">
+    </video>
+    <video id="LtFXYvNIxws" title="Alphabet Song" duration="1:18">
+    </video>
+    <video id="df9JRoA9jko" title="Johny Johny Yes Papa" duration="2:09">
+    </video>
+    <video id="N4k9MWdeSX8" title="Old McDonald" duration="1:22">
+    </video>
+  </playlist>
+  <playlist label="Trucks and Tractors" id="PL5" imagname="images/Trucks.jpg">
+    <video id="buqw2bvlu2Q" title="The Elephant Child" duration="5:40">
+    </video>
+    <video id="_s8HO0ti9B0" title="Fairy Tales - Cinderella" duration="11:15">
+    </video>
+    <video id="KLcOrujuYpc" title="The Pigeon and the Ant" duration="2:44">
+    </video>
+    <video id="7cyF9v_LiOA" title="Dinner Time" duration="2:15">
+    </video>
+  </playlist>
+  <playlist label="Comedy" id="PL6" imagname="images/comedy.jpg">
+    <video id="gBEHFFnV3RY" title="Baa Baa Black Sheep" duration="2:17">
+    </video>
+    <video id="WSdWCtn8oko" title="Clap Your Hands" duration="2:40">
+    </video>
+    <video id="LtFXYvNIxws" title="Alphabet Song" duration="1:18">
+    </video>
+    <video id="df9JRoA9jko" title="Johny Johny Yes Papa" duration="2:09">
+    </video>
+    <video id="N4k9MWdeSX8" title="Old McDonald" duration="1:22">
+    </video>
+  </playlist>
+  <playlist label="Sports" id="PL7" imagname="images/sports.jpg">
+    <video id="buqw2bvlu2Q" title="The Elephant Child" duration="5:40">
+    </video>
+    <video id="_s8HO0ti9B0" title="Fairy Tales - Cinderella" duration="11:15">
+    </video>
+    <video id="KLcOrujuYpc" title="The Pigeon and the Ant" duration="2:44">
+    </video>
+    <video id="7cyF9v_LiOA" title="Dinner Time" duration="2:15">
+    </video>
+  </playlist>
+  <playlist label="Karaoke" id="PL8" imagname="images/karoke.jpg">
+    <video id="buqw2bvlu2Q" title="The Elephant Child" duration="5:40">
+    </video>
+    <video id="_s8HO0ti9B0" title="Fairy Tales - Cinderella" duration="11:15">
+    </video>
+    <video id="KLcOrujuYpc" title="The Pigeon and the Ant" duration="2:44">
+    </video>
+    <video id="7cyF9v_LiOA" title="Dinner Time" duration="2:15">
+    </video>
+  </playlist>
+</root>

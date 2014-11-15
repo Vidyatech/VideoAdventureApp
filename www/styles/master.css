@@ -1,0 +1,175 @@
+chapterTitle
+{
+	width: 60px;
+	height:50px; 
+	xfloat: left;
+	clear:both;
+	padding-left:0px
+}
+.chapterTitle img
+{
+	cursor:pointer
+}
+
+
+
+#videoTable
+{
+    /* */
+    xmin-width: 352px; 
+}
+
+
+
+.lessonDiv
+{
+	xwidth: 100%;
+	clear:both;
+	height: 100%;
+    overflow: auto;
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow-y:hidden;
+    opacity:0;
+  transition:opacity 1s linear;
+}
+.noNetworkTopDiv
+{
+	xwidth: 100%;
+	clear:both;
+	height: 100%;
+    overflow: auto;
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow-y:hidden;
+    opacity:1;
+  transition:opacity 1s linear;
+}
+.videoDivCls
+{
+	xwidth: 100%;
+	clear:both;
+	xheight: 100%;
+    overflow: auto;
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow-y:hidden;
+    opacity:1;
+  transition:opacity 1s linear;
+}
+#mtbl
+{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	padding:0;
+}
+.scrolltd
+{
+	height: 100%;
+	width:auto;
+	xoverflow: auto;	
+}
+.topicData
+{
+	width:320px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-size:320px 180px
+}
+.topicData table
+{
+	height:180px;
+	width:320px
+}
+.subtitle
+{
+	font-family: "Helvetica" , "Lucida Sans Unicode";
+    font-size: 23px;margin:0;padding-left:15px;
+	color:black;
+}
+.extitle
+{
+	background-color:black;
+	height:auto;
+	opacity:0.8;
+	padding-top:3px
+}
+.extitle div
+{
+	font-family: "Helvetica" , "Lucida Sans Unicode";
+    font-size: 17px;margin:0;padding-left:8px;
+	color:white;
+	opacity:1
+}
+
+
+.mobile-extitle
+{
+	background-color:black;
+	opacity:0.8;
+	padding-left:8px;
+	padding-top:3px
+}
+
+.mobile-extitle div
+{
+	font-family: "Helvetica , Lucida Sans Unicode";
+    font-size: 17px;
+    margin:0;
+	color:white;
+	opacity:1
+}
+
+
+.blankCell
+{
+	height:140px;
+	text-align:center;
+	xwidth:320px
+}
+
+.mobile-blankCell
+{
+	height:70px;
+	text-align:center;
+	xwidth:320px;
+	
+}
+
+
+.titlediv
+{
+	float:left;
+}
+.durationDiv
+{
+	padding-right:5px;
+	float:right
+}
+.noNetworkTd
+{
+	height: 100%;
+	width: 100%;
+}
+.noNetworkDiv {
+   position: absolute;
+   top: 30%;
+   left: 35%;
+   height: 60%;
+   width: 75%;
+   margin: -15% 0 0 -25%;
+   xbackground-color:yellow;
+}
+.noNetworkTd1
+{
+	height:144px;
+	width:144px;
+	background-image:url(../images/noconnection.png);
+	background-repeat:no-repeat;
+	background-size:144px 144px;
+	background-position:center center;
+}
